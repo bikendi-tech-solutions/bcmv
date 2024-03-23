@@ -5,7 +5,7 @@
 *Description: This Add-on adds Bill Payment and Cable TV Subscription to your VTUPRESS plug-in.
 *Version: 1.2.9
 *Author: Akor Victor
-*Author URI: https://facebook.com/akor.victor.39
+*Author URI: https://facebook.com/bikendi-tech-solutions
 */
 if(!defined('ABSPATH')){
     $pagePath = explode('/wp-content/', dirname(__FILE__));
