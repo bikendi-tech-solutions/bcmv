@@ -3,7 +3,7 @@
 *Plugin Name: BCMV For VTUPRESS
 *Plugin URI: https://summusuniversity.com.ng
 *Description: This Add-on adds Bill Payment and Cable TV Subscription to your VTUPRESS plug-in.
-*Version: 1.3.1
+*Version: 1.3.3
 *Author: Akor Victor
 *Author URI: https://facebook.com/bikendi-tech-solutions
 */
@@ -71,7 +71,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 );
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
-
+$myUpdateChecker->setAuthentication('your-token-here');
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 
